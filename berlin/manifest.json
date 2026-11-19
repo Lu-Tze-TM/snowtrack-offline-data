@@ -1,0 +1,21 @@
+{
+  "region": "berlin",
+  "name": "Berlin (Stadtgebiet)",
+  "source": "OpenStreetMap-Daten (ODbL 1.0), Extract: https://download.bbbike.org/osm/bbbike/Berlin/Berlin.osm.gz",
+  "attribution": "© OpenStreetMap-Mitwirkende",
+  "license": "ODbL 1.0",
+  "bounds": {"swLat": 52.3382, "swLon": 13.0884, "neLat": 52.6755, "neLon": 13.7611},
+  "files": [
+    {"fileName": "roads.geojson", "category": "ROADS", "sizeBytes": 93284491, "sha256": "298fc3a4339123792020fe62f383b4694963984d75e1494f3a3f856a1d5b23a8", "featureCount": 342349},
+    {"fileName": "cycleways.geojson", "category": "CYCLEWAYS", "sizeBytes": 8934100, "sha256": "7f26b218575cb2149defc84cd94b025c2af9e2b0b7fe58a6c9c581ed8ace7ce6", "featureCount": 25812},
+    {"fileName": "footways.geojson", "category": "FOOTWAYS", "sizeBytes": 68539873, "sha256": "80ba0cf8fa513155ac7c0c0364ec1cf8608b0f2b6497a4dce004e47b459c9a88", "featureCount": 266176},
+    {"fileName": "paths.geojson", "category": "PATHS", "sizeBytes": 23563597, "sha256": "4a74f7796598fd1ef2db46dd82ca05cbe8557948052f02f2d2f09b4244abd886", "featureCount": 72122},
+    {"fileName": "parks.geojson", "category": "PARKS", "sizeBytes": 44235942, "sha256": "cc480aae1b7b69bd411ca1043101f85bf0e989929e44a2c7e5b375cd309f0b09", "featureCount": 82939},
+    {"fileName": "water.geojson", "category": "WATER", "sizeBytes": 9401452, "sha256": "1578c733e5ecf587af223a0d8fadd8f592ea8791703d46a7de11b8a84563f41d", "featureCount": 24327},
+    {"fileName": "pois.geojson", "category": "POIS", "sizeBytes": 45149169, "sha256": "971de3976d8271b2b590434e3b6c8ad72a37690a0e8523f431d2f13827a7d1a7", "featureCount": 306624},
+    {"fileName": "elevation.geojson", "category": "ELEVATION", "sizeBytes": 390476, "sha256": "100bb0c2d556152f9e81b4afae3501195ffc497b1fde3bc8a0e6667f0d874a8c", "featureCount": 2977}
+  ],
+  "totalSizeBytes": 293499100,
+  "generatedFromExtractLastModified": "2026-11-15",
+  "note": "surface/incline sind Eigenschaften der Weg-Features (roads/cycleways/footways/paths), keine eigenen Dateien. POIs sind OSM-Knoten. Höhen (ele) sind OSM-Punkt-Höhen."
+}
